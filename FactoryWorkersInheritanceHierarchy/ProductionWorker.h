@@ -28,7 +28,7 @@ public:
 	void setShift(int s);
 	void setHourlyPayRate(double rate);
 
-	//Print
+	// Print
 
 	void printProductionWorker() const {
 
