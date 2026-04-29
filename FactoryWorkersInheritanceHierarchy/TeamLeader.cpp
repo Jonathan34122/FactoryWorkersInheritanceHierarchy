@@ -14,6 +14,8 @@ TeamLeader::TeamLeader(string n, int num, string date, int shift, double rate, d
 
 }
 
+// Print
+
 void TeamLeader::printTeamLeader() const {
 	printProductionWorker();
 

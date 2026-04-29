@@ -30,9 +30,7 @@ public:
 
 	// Print
 
-	void printProductionWorker() const {
-
-	}
+	void printProductionWorker() const;
 
 };
 

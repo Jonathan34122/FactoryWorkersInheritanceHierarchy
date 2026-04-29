@@ -3,7 +3,7 @@
 //Constructors
 //Default
 
-Employee::Employee() : name(" "), employeeNumber(0), hireDate(" ") {
+Employee::Employee() : name(""), employeeNumber(0), hireDate("") {
 
 }
 
