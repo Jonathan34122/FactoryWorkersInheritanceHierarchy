@@ -15,6 +15,12 @@ private:
 
 public:
 
+	//  Exception Class
+
+	class InvalidEmployeeNumber {
+
+	};
+
 	// Constructors, default and params
 
 	Employee();
