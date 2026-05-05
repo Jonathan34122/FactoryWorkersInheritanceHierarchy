@@ -14,6 +14,14 @@ private:
 
 public:
 
+	class InvalidShift {
+
+	};
+
+	class InvalidPayRate {
+
+	};
+
 	// Default and parameter constructor
 	ProductionWorker();
 	ProductionWorker(string n, int num, string date, int s, double rate);

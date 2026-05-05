@@ -27,11 +27,23 @@ double ProductionWorker::getHourlyPayRate() const {
 // Setters
 
 void ProductionWorker::setShift(int s) {
+
+	if (s != 1 && s != 2) {
+		throw InvalidShift(); // error
+	}
+
 	shift = s;
+
 }
 
 void ProductionWorker::setHourlyPayRate(double rate) {
+
+	if (rate < 0) {
+		throw InvalidPayRate(); // error
+	}
+
 	hourlyPayRate = rate;
+
 }
 
 // Print
